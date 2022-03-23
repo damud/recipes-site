@@ -1,18 +1,29 @@
 import React from "react"
-import { Link } from "gatsby";
 import Layout from "../components/layout";
-import styledComponents from "styled-components";
+import { StaticImage } from "gatsby-plugin-image";
 import "normalize.css";
 import "../assets/css/style.css";
 
 export default function Home() {
   return (
   <Layout>
-
-  <h1> Home page</h1>
-  <div>
-    <Link to="/about">about</Link>
-  </div>
+<main className="page">
+  <header className="hero">
+    <StaticImage
+    src="../assets/images/main.jpeg"
+    alt="eggs"
+    className="hero-img"
+    placeholder="tracedSVG"
+    layout="fullWidth" 
+    ></StaticImage>
+    <div className="hero-container">
+      <div className="hero-text">
+        <h1>Simply recipes</h1>
+        <h4>no flow, just recipes</h4>
+      </div>
+    </div>
+  </header>
+</main>
   </Layout>
   
 
