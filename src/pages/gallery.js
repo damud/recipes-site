@@ -57,7 +57,4 @@ flex-wrap: wrap;
 }
 `
 
-
-
-
 export default Gallery
