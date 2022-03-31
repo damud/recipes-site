@@ -14,7 +14,7 @@ const setupTags = recipes => {
     const [secondTag] = b
     return firstTag.localeCompare(secondTag)
   })
-  console.log(newTags)
+
   return newTags
 }
 
