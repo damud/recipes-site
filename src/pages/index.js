@@ -9,7 +9,7 @@ import "../assets/css/style.css"
 export default function Home() {
   return (
     <Layout>
-      <SEO />
+      <SEO title="Home" />
       <main className="page">
         <header className="hero">
           <StaticImage
