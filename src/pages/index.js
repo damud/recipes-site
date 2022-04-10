@@ -2,12 +2,14 @@ import React from "react"
 import Layout from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 import AllRecipes from "../components/AllRecipes"
+import SEO from "../components/SEO"
 import "normalize.css"
 import "../assets/css/style.css"
 
 export default function Home() {
   return (
     <Layout>
+      <SEO />
       <main className="page">
         <header className="hero">
           <StaticImage
